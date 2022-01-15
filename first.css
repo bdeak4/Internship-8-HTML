@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Jubilat";
+    src: url("assets/Jubilat.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Jubilat, Georgia, sans-serif;
+    margin: 0;
+}
+
+.first {
+    padding: 100px 0;
+    background-color: #f4f4f2;
+}
+
+.first__heading {
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    line-height: 57px;
+    color: #273c48;
+    font-weight: 200;
+}
+
+.first__subheading {
+    text-align: center;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    margin-top: 5px;
+    color: #686868;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.first__main-card {
+    width: 940px;
+    margin: 50px auto 60px auto;
+}
+
+.first__main-card__heading-container {
+    width: 400px;
+    height: 488px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    padding: 150px 50px 0 50px;
+}
+
+.first__main-card__heading {
+    color: #273c48;
+    font-size: 33px;
+    line-height: 40px;
+    margin: 0;
+}
+
+.first__main-card__subheading {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    color: #686868;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.first__main-card__image {
+    height: 488px;
+    width: 535px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 260px 40px 40px 40px;
+    background-image: url("assets/teaching.png");
+    background-size: cover;
+}
+
+.first__main-card__image__highlight {
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.first__main-card__image__title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.first__card-container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.first__card {
+    width: 460px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+}
+
+.first__card__image {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-bottom: 8px solid #ffc40c;
+}
+
+.first__card__heading-container {
+    padding: 50px 30px;
+}
+
+.first__card__heading {
+    text-decoration: none;
+    color: #273c48;
+}
+
+.first__card__heading h3 {
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.first__card__subheading {
+    font-family: 'Lato', sans-serif;
+    color: #686868;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+}
