@@ -3,6 +3,11 @@
     src: url("assets/Jubilat.otf");
 }
 
+@font-face {
+    font-family: "Jubilat Bold";
+    src: url("assets/Jubilat-Bold.otf");
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {

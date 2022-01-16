@@ -1,0 +1,22 @@
+.third {
+    text-align: center;
+    margin: 200px auto;
+    width: 600px;
+}
+
+.third__quote {
+    font-size: 50px;
+    line-height: 57px;
+    color: #273c48;
+    font-weight: 700;
+    font-family: 'Jubilat Bold', Georgia, sans-serif;
+    margin: 20px 0;
+}
+
+.third__quote-autor {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #979797;
+    font-weight: 600;
+    font-size: 12px;
+}
