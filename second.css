@@ -1,0 +1,22 @@
+.second {
+    background-color: #ffc40c;
+}
+
+.second__text {
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+    vertical-align: top;
+    margin: 0;
+    padding: 100px 175px;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 200;
+}
+
+.second__image {
+    width: 49.75%;
+    height: 400px;
+    vertical-align: top;
+    object-fit: cover;
+}
